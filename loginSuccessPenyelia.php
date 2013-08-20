@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>.::SISTEM MAKLUMAT PROJEK PELAJAR TAHUN AKHIR::.</title>
+<?php 
+session_start();
+if(!$_SESSION['staffId']){header("location:SilaloginPenyelia.php");}
+?>
+
+<style type="text/css">
+<!--
+body {
+	background-color: #2b2928;
+	background-image: url(images/templatemo_main_bg.jpg);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.style26 {
+	color: #000000
+}
+.style29 {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.style23 {
+	color: #000000;
+	font-weight: bold;
+}
+.style24 {color: #FFFFFF}
+.style30 {color: #FFFFFF;
+	font-weight: bold;
+}
+.style31 {color: #990000}
+-->
+</style>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div align="center"><br>
+  <table width="1004" height="542" border="2" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+    <tr>
+      <td width="998" height="538" bgcolor="#FFFFFF"><table width="998" height="535" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="151" bgcolor="#FFFFFF">
+			<!-- banner -->
+			<div id="banner"></div>
+		  </td>
+        </tr>
+
+        <tr>
+          <td height="17" bgcolor="#990000" class="style26"><div align="center">
+            <table width="972" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="114"><span class="style31">
+                  <?php include("footer/staffIdPenyelia.php"); ?>
+                </span></td>
+                <td width="858"><div align="center"></div></td>
+              </tr>
+            </table>
+          </div></td>
+        </tr>
+        <tr>
+          <td width="1282" height="313" bgcolor="#FFFFFF"><table width="994" height="23" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="994"><div align="center">
+                  <?php include("footer/menupenyelia.php"); ?>
+                  <table width="706" height="223" border="2" cellpadding="0" cellspacing="0" bordercolor="#990000" bgcolor="#333333">
+                    <tr>
+                      <td width="700" height="215"><div align="center"><br>
+                              <table width="650" height="23" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td width="640"><div align="center"><span class="style29"><font color="#FFFFFF">&rdquo;Sistem Maklumat Projek  Pelajar Tahun Akhir&rdquo; telah dibangunkan bagi memudahkan penggunanya. Sistem  ini digunakan di Fakulti Sains Komputer Dan Teknologi Maklumat (FSKTM). Sistem  Maklumat Projek Pelajar Tahun Akhir ini akan dilarikan di persekitaran  internet. Memandangkan Jabatan  Sistem Maklumat, Fakulti Sains Komputer, UPM masih menggunakan kaedah secara  manual dalam pengurusan projek pelajar tahun akhir, maka Sistem Maklumat Projek  Pelajar Tahun Akhir yang telah dibangunkan ini bertujuan bagi memudahkan pengurusan  pendaftaran projek yang berlaku antara pelajar, penyelia dan penyelaras projek  sepanjang perlaksanaan projek tahun akhir. </font></span></div></td>
+                                </tr>
+                              </table>
+                        <br>
+                      </div></td>
+                    </tr>
+                  </table>
+              </div></td>
+            </tr>
+          </table>
+          <div align="center"></div><br/><br /><br/></td>
+        </tr>
+        
+  <td height="18" bgcolor="#FFFFFF"><?php include("footer/footer.php"); ?></td>
+  </tr>
+      </table></td>
+    </tr>
+  </table>
+</div>
+<div align="left"></div></body>
+</html>
+
